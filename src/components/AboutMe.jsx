@@ -1,3 +1,6 @@
+import languages from "../constants/langugaes";
+import technologies from "../constants/technologies";
+
 export default function AboutMe() {
     return (
         <div className="h-screen text-white m-10">
@@ -9,12 +12,48 @@ export default function AboutMe() {
                     <p className="text-9xl">About Me</p>
                 </div>
             </div>
+            <div className="w-3/4 mx-auto text-center my-14 text-2xl border border-white rounded-lg p-10">
+                <p>
+                    <b>
+                        I am third year student at Suleyman Demirel University. As a future frontend developer, I bring a creative mindset. With a strong commitment to continuous learning and staying up-to-date with the latest industry trends, I am eager to contribute my skills and grow as a
+                        professional frontend developer.
+                    </b>
+                </p>
+            </div>
             <div>
-                <ul>
-                    <li>- 🔭 I amm currently working on [web-profile](https://github.com/ded-r/web-profile)</li>
-                    <li>- 🌱 I am currently learning **ReactJS**</li>
-                    <li>- 📫 How to reach me **didarmaratov04@gmail.com**</li>
-                </ul>
+                <p className="my-16 text-center text-6xl">
+                    <b>My Stack</b>
+                </p>
+                <div className="grid grid-cols-5">
+                    {technologies.map((tech, index) => (
+                        <div key={index} className="mx-auto text-center m-4">
+                            <img src={tech.logo} alt={tech.name} height={200} width={200} />
+                            <b>{tech.name}</b>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div>
+                <p className="my-16 text-center text-6xl">
+                    <b>Languages</b>
+                </p>
+                <div className="flex space-x-20 justify-center items-center align-middle">
+                    {languages.map((tech, index) => (
+                        <div key={index} className="text-center">
+                            <img src={tech.logo} alt={tech.name} height={200} width={200} />
+                            <b>{tech.name}</b>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className="text-center text-2xl">
+                <p>
+                    <b>
+                        <a href="https://drive.google.com/file/d/1WCwjMM6q5N2-zoanHiiAM0A1kdoG9YeP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            Download CV
+                        </a>
+                    </b>
+                </p>
             </div>
         </div>
     );
