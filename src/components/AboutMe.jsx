@@ -1,18 +1,20 @@
 export default function AboutMe() {
     return (
-        <div className="text-center">
-            <div className="flex justify-center items-center">
-                <img src="public/IMG_6418.JPG" alt="My photo" width={300} height={400} />
-            </div>
-            <div className="mb-5">
-                <p>Its me</p>
+        <div className="h-screen text-white m-10">
+            <div className="grid grid-cols-2">
+                <div className="flex justify-center items-center">
+                    <img src="public/IMG_6418.JPG" alt="My photo" width={300} height={400} />
+                </div>
+                <div className="flex justify-center items-center">
+                    <p className="text-9xl">About Me</p>
+                </div>
             </div>
             <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta arcu non leo convallis aliquet. Pellentesque sed blandit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus bibendum libero nulla, vel sollicitudin lorem
-                    facilisis et. Vestibulum sit amet magna ornare, bibendum lacus vel, consequat ante. Aenean suscipit viverra imperdiet. Nam eu massa tempus, congue ex at, auctor dolor. Vivamus vitae turpis urna. Duis pulvinar ligula pretium, ullamcorper augue id, ultrices ante. Proin sed magna
-                    sollicitudin, luctus ante quis, hendrerit augue. Aenean vehicula tristique purus, sed dictum dui lobortis consectetur. Etiam bibendum dui nisi, ut rutrum justo pellentesque in.
-                </p>
+                <ul>
+                    <li>- 🔭 I amm currently working on [web-profile](https://github.com/ded-r/web-profile)</li>
+                    <li>- 🌱 I am currently learning **ReactJS**</li>
+                    <li>- 📫 How to reach me **didarmaratov04@gmail.com**</li>
+                </ul>
             </div>
         </div>
     );
