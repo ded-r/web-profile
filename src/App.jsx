@@ -1,6 +1,7 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import Content from "./components/Content";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./constants/router/router";
 
 function App() {
     return (
@@ -11,7 +12,7 @@ function App() {
                 </div>
                 <div className="col-start-3 col-end-5 border border-white shadow-xl rounded-lg p-5">Menu</div>
                 <div className="col-span-6 border border-white shadow-xl rounded-lg p-5">
-                    <Content />
+                    <RouterProvider router={router} />
                 </div>
             </div>
         </>

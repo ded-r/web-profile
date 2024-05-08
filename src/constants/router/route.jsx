@@ -1,5 +1,6 @@
 import AboutMe from "../../components/AboutMe";
 import Projects from "../../components/Projects";
+import NotFound from "../../components/NotFound";
 
 export const ROUTES = [
     {
@@ -9,5 +10,9 @@ export const ROUTES = [
     {
         path: "/projects",
         element: <Projects />,
+    },
+    {
+        path: "*",
+        element: <NotFound />,
     },
 ];

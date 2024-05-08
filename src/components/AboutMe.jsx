@@ -4,7 +4,9 @@ export default function AboutMe() {
             <div className="flex justify-center items-center">
                 <img src="public/IMG_6418.JPG" alt="My photo" width={300} height={400} />
             </div>
-            <div>Its me</div>
+            <div className="mb-5">
+                <p>Its me</p>
+            </div>
             <div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta arcu non leo convallis aliquet. Pellentesque sed blandit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus bibendum libero nulla, vel sollicitudin lorem
