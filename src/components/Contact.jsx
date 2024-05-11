@@ -1,9 +1,11 @@
+import FeedbackForm from "./Feedback";
+
 export default function Contact() {
     return (
-        <div>
-            <div className="text-center text-9xl my-auto">Auyesbay Didar</div>
-            <div className="text-center">Frontend Developer</div>
-            <div className="fixed bottom-0">Projected by Auyesbay Didar himself</div>
+        <div className="flex-grow flex flex-col justify-center items-center text-white">
+            <p className="text-4xl text-center">Leave some feedback :D</p>
+            <p className="text-center text-2xl pt-5">Contact Form</p>
+            <FeedbackForm />
         </div>
     );
 }

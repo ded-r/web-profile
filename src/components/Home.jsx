@@ -1,9 +1,13 @@
 export default function Home() {
     return (
-        <div className="text-white">
-            <div className="flex justify-center items-center align-middle text-center text-9xl">Auyesbay Didar</div>
-            <div className="text-center">Frontend Developer</div>
-            <div className="fixed bottom-0">Projected by Auyesbay Didar himself</div>
+        <div className="flex-grow flex flex-col justify-center items-center text-white">
+            <p className="text-9xl text-center">Auyesbay Didar</p>
+            <p className="text-center text-4xl pt-5">Frontend Developer</p>
+            <p className="mt-[10%]">
+                <a href="/contact" className="text-4xl hover:underline underline-offset-8">
+                    Contact Me!
+                </a>
+            </p>
         </div>
     );
 }

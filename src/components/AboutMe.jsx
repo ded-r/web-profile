@@ -3,10 +3,10 @@ import technologies from "../constants/technologies";
 
 export default function AboutMe() {
     return (
-        <div className="h-screen text-white m-10">
+        <div className="text-white m-10">
             <div className="grid grid-cols-2">
                 <div className="flex justify-center items-center">
-                    <img src="public/IMG_6418.JPG" alt="My photo" width={300} height={400} />
+                    <img src="/IMG_6418.JPG" alt="My photo" width={300} height={400} />
                 </div>
                 <div className="flex justify-center items-center">
                     <p className="text-9xl">About Me</p>
@@ -46,7 +46,7 @@ export default function AboutMe() {
                     ))}
                 </div>
             </div>
-            <div className="text-center text-2xl">
+            <div className="text-center text-2xl py-20">
                 <p>
                     <b>
                         <a href="https://drive.google.com/file/d/1WCwjMM6q5N2-zoanHiiAM0A1kdoG9YeP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
