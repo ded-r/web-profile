@@ -2,26 +2,26 @@ export default function Nav() {
     return (
         <>
             <div>
-                <ul className="flex justify-end text-2xl py-5 px-10 space-x-20 bg-cyan-500">
+                <ul className="flex justify-end text-2xl py-5 px-10 space-x-20 shadow-xl" style={{ backgroundColor: "#7AB2B2" }}>
                     <li>
-                        <p className="hover:underline active:underline underline-offset-8">
-                            <a href="/">Home</a>
-                        </p>
+                        <a href="/" className="hover:underline hover:underline-offset-8">
+                            Home
+                        </a>
                     </li>
                     <li>
-                        <p className="hover:underline active:underline underline-offset-8">
-                            <a href="/about">About Me</a>
-                        </p>
+                        <a href="/about" className="hover:underline hover:underline-offset-8">
+                            About Me
+                        </a>
                     </li>
                     <li>
-                        <p className="hover:underline active:underline underline-offset-8">
-                            <a href="/projects">Projects</a>
-                        </p>
+                        <a href="/projects" className="hover:underline hover:underline-offset-8">
+                            Projects
+                        </a>
                     </li>
                     <li>
-                        <p className="hover:underline active:underline underline-offset-8">
-                            <a href="/contact">Contact</a>
-                        </p>
+                        <a href="/contact" className="hover:underline hover:underline-offset-8">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </div>

@@ -3,7 +3,7 @@ import technologies from "../constants/technologies";
 
 export default function AboutMe() {
     return (
-        <div className="text-white m-10">
+        <div className="text-black m-10">
             <div className="grid grid-cols-2">
                 <div className="flex justify-center items-center">
                     <img src="/IMG_6418.JPG" alt="My photo" width={300} height={400} />
@@ -12,7 +12,7 @@ export default function AboutMe() {
                     <p className="text-9xl">About Me</p>
                 </div>
             </div>
-            <div className="w-3/4 mx-auto text-center my-14 text-2xl border border-white rounded-lg p-10">
+            <div className="w-3/4 mx-auto text-center my-14 text-2xl border border-black rounded-lg p-10">
                 <p>
                     <b>
                         I am third year student at Suleyman Demirel University. As a future frontend developer, I bring a creative mindset. With a strong commitment to continuous learning and staying up-to-date with the latest industry trends, I am eager to contribute my skills and grow as a
@@ -46,11 +46,11 @@ export default function AboutMe() {
                     ))}
                 </div>
             </div>
-            <div className="text-center text-2xl py-20">
+            <div className="text-center text-4xl my-20 underline underline-offset-8 transition ease-in-out duration-300 hover:text-blue-500 hover:scale-110">
                 <p>
                     <b>
                         <a href="https://drive.google.com/file/d/1WCwjMM6q5N2-zoanHiiAM0A1kdoG9YeP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                            Download CV
+                            View CV
                         </a>
                     </b>
                 </p>

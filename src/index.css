@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Kanit";
+    src: url("./fonts/Kanit-Regular.woff") format("woff"), url("./fonts/Kanit-Bold.woff") format("woff"), url("./fonts/Kanit-BoldItalic.woff") format("woff2");
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+}
+
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Kanit, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-
-    color-scheme: light dark;
-    color: black;
-    background-color: #222831;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;

@@ -7,7 +7,7 @@ import { router } from "./constants/router/router";
 function App() {
     return (
         <>
-            <div className="flex flex-col min-h-screen">
+            <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#EEF7FF" }}>
                 <Nav />
                 <RouterProvider router={router} />
                 <Footer />
