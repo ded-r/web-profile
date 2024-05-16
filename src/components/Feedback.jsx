@@ -1,5 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Feedback() {
     const [name, setName] = useState("");
@@ -53,11 +55,24 @@ export default function Feedback() {
                     <label className="text-sm">Message</label>
                     <textarea id="message" value={message} name="message" className="h-32 py-1 px-3 w-full resize-none rounded border border-gray-300 text-black" onChange={(e) => setMessage(e.target.value)}></textarea>
                 </div>
-                <button className="rounded border-0 bg-indigo-500 py-2 px-6 text-lg text-white hover:bg-indigo-600 focus:outline-none" onClick={sendEmail}>
+                <button className="rounded border-0 bg-green-600 py-2 px-6 text-lg text-white hover:bg-green-700 focus:outline-none transition duration-200" onClick={sendEmail}>
                     Send
                 </button>
-                {/* {stateMessage && <p>{stateMessage}</p>} */}
                 <p className="mt-3 text-xs text-gray-500">Feel free to connect with me on social media platforms</p>
+                <div className="flex justify-between p-3">
+                    <a href="https://github.com/ded-r" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGithub} size="xl" />
+                    </a>
+                    <a href="https://www.instagram.com/dd.mrtv/" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faInstagram} size="xl" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/didar-auyesbay-370b0a281/" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} size="xl" />
+                    </a>
+                    <a href="https://t.me/d3drrr" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faTelegram} size="xl" />
+                    </a>
+                </div>
             </div>
         </form>
     );

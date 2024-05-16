@@ -1,5 +1,8 @@
 import languages from "../constants/langugaes";
 import technologies from "../constants/technologies";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function AboutMe() {
     return (
@@ -8,8 +11,38 @@ export default function AboutMe() {
                 <div className="flex justify-center items-center">
                     <img src="/IMG_6418.JPG" alt="My photo" width={300} height={400} />
                 </div>
-                <div className="flex justify-center items-center">
-                    <p className="text-9xl">About Me</p>
+                <div className="flex flex-col justify-center">
+                    <p className=" text-7xl">About Me</p>
+                    <div className="grid grid-cols-2 text-xl">
+                        <div className="flex flex-col justify-center items-start py-[30%] gap-5">
+                            <p>
+                                <FontAwesomeIcon icon={faEnvelope} size="xl" /> didarmaratov04@gmail.com
+                            </p>
+                            <p>
+                                <FontAwesomeIcon icon={faPhone} size="xl" /> +7 705 715 65 74
+                            </p>
+                            <p>
+                                <FontAwesomeIcon icon={faLocationDot} size="xl" /> Almaty, KZ
+                            </p>
+                        </div>
+                        <div className="flex flex-col justify-center items-start py-[30%] gap-5">
+                            <p>
+                                <a href="https://github.com/ded-r" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} size="xl" /> GitHub
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://www.linkedin.com/in/didar-auyesbay-370b0a281/" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} size="xl" /> LinkedIn
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://t.me/d3drrr" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faTelegram} size="xl" /> Telegram
+                                </a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="w-3/4 mx-auto text-center my-14 text-2xl border border-black rounded-lg p-10">
