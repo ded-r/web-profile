@@ -9,7 +9,7 @@ export default function AboutMe() {
         <div className="text-black m-10">
             <div className="grid lg:grid-cols-2">
                 <div className="flex justify-center items-center">
-                    <img src="/IMG_6418.JPG" alt="My photo" width={300} height={400} />
+                    <img src="https://drive.google.com/thumbnail?id=1ZYdD3rVyKUMC3ZtO0DawogjgpQ51bPcj&sz=w1000" alt="My photo" width={300} height={400} />
                 </div>
                 <div className="flex flex-col justify-center">
                     <p className="text-center lg:text-start my-5 text-3xl lg:text-7xl">About Me</p>
@@ -26,24 +26,21 @@ export default function AboutMe() {
                                 <FontAwesomeIcon icon={faLocationDot} size="xl" /> Almaty, KZ
                             </p>
                         </div>
-                        <div className="flex flex-col justify-center lg:items-start lg:py-[30%] gap-5">
-                            <p className="flex flex-row-reverse gap-1">
+                        <div className="flex flex-col items-center   lg:items-start lg:py-[30%] gap-5">
+                            <p className="flex flex-row-reverse">
                                 <a href="https://github.com/ded-r" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faGithub} size="xl" />
+                                    <FontAwesomeIcon icon={faGithub} size="xl" /> GitHub
                                 </a>
-                                <span>GitHub</span>
                             </p>
                             <p className="flex flex-row-reverse gap-1">
                                 <a href="https://www.linkedin.com/in/didar-auyesbay-370b0a281/" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faLinkedin} size="xl" />
+                                    <FontAwesomeIcon icon={faLinkedin} size="xl" /> LinkedIn
                                 </a>
-                                <span>LinkedIn</span>
                             </p>
                             <p className="flex flex-row-reverse gap-1">
                                 <a href="https://t.me/d3drrr" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faTelegram} size="xl" />
+                                    <FontAwesomeIcon icon={faTelegram} size="xl" /> Telegram
                                 </a>
-                                <span>Telegram</span>
                             </p>
                         </div>
                     </div>
