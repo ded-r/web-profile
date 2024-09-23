@@ -17,28 +17,34 @@ export default function AboutMe() {
                         <div className="flex flex-col justify-center items-start gap-5">
                             <p className="flex gap-2">
                                 <FontAwesomeIcon icon={faEnvelope} size="xl" />
-                                <span>didarmaratov04@gmail.com</span>
+                                <a href="mailto:didarmaratov04@gmail.com">
+                                    <span>didarmaratov04@gmail.com</span>
+                                </a>
                             </p>
                             <p>
-                                <FontAwesomeIcon icon={faPhone} size="xl" /> +7 705 715 65 74
+                                <a href="tel:+77057156574">
+                                    <FontAwesomeIcon icon={faPhone} size="xl" /> +7 705 715 65 74
+                                </a>
                             </p>
                             <p>
-                                <FontAwesomeIcon icon={faLocationDot} size="xl" /> Almaty, KZ
+                                <a href="https://maps.app.goo.gl/GSnLwVcDQiKmtDmp8" rel="noopener noreferrer" target="_blank">
+                                    <FontAwesomeIcon icon={faLocationDot} size="xl" /> Almaty, KZ
+                                </a>
                             </p>
                         </div>
                         <div className="flex flex-col items-center   lg:items-start lg:py-[30%] gap-5">
                             <p className="flex flex-row-reverse">
-                                <a href="https://github.com/ded-r" rel="noopener noreferrer">
+                                <a href="https://github.com/ded-r" rel="noopener noreferrer" target="_blank">
                                     <FontAwesomeIcon icon={faGithub} size="xl" /> GitHub
                                 </a>
                             </p>
                             <p className="flex flex-row-reverse gap-1">
-                                <a href="https://www.linkedin.com/in/didar-auyesbay-370b0a281/" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/didar-auyesbay-370b0a281/" rel="noopener noreferrer" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedin} size="xl" /> LinkedIn
                                 </a>
                             </p>
                             <p className="flex flex-row-reverse gap-1">
-                                <a href="https://t.me/d3drrr" rel="noopener noreferrer">
+                                <a href="https://t.me/d3drrr" rel="noopener noreferrer" target="_blank">
                                     <FontAwesomeIcon icon={faTelegram} size="xl" /> Telegram
                                 </a>
                             </p>
