@@ -4,7 +4,7 @@ export default function Projects() {
             <h1 className="text-2xl">Projects</h1>
             <div className="flex justify-center items-center">
                 <div className="grid grid-flow-row">
-                    <div className="my-5 grid grid-cols-3">
+                    <div className="my-5 grid grid-cols-2 lg:grid-cols-3">
                         <div className="text-center hover:text-blue-500 duration-300 hover:scale-105">
                             <a href="https://didar-weather.netlify.app/" target="_blank">
                                 <p>Simple Weather App</p>

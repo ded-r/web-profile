@@ -55,7 +55,7 @@ export default function AboutMe() {
             <div className=" lg:w-3/4 mx-auto text-center my-14 text-lg border border-black rounded-lg lg:p-10 p-3">
                 <p>
                     <b>
-                        I am third year student at Suleyman Demirel University. As a future frontend developer, I bring a creative mindset. With a strong commitment to continuous learning and staying up-to-date with the latest industry trends, I am eager to contribute my skills and grow as a
+                        I am fourth year student at Suleyman Demirel University. As a future frontend developer, I bring a creative mindset. With a strong commitment to continuous learning and staying up-to-date with the latest industry trends, I am eager to contribute my skills and grow as a
                         professional frontend developer.
                     </b>
                 </p>
