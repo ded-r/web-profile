@@ -6,7 +6,7 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 
 export default function AboutMe() {
     return (
-        <div className="text-black m-10">
+        <div className="flex flex-col flex-grow text-black m-10">
             <div className="grid lg:grid-cols-2">
                 <div className="flex justify-center items-center">
                     <img src="https://drive.google.com/thumbnail?id=1ZYdD3rVyKUMC3ZtO0DawogjgpQ51bPcj&sz=w1000" alt="My photo" width={300} height={400} />

@@ -40,26 +40,21 @@ export default function Nav() {
     return (
         <div style={{ backgroundColor: "#7AB2B2" }}>
             <div className="hidden lg:flex justify-end text-2xl py-5 px-10 space-x-20 shadow-xl">
-                {/* <li> */}
                 <a href="/" className="hover:underline hover:underline-offset-8">
                     Home
                 </a>
-                {/* </li> */}
-                {/* <li> */}
                 <a href="/about" className="hover:underline hover:underline-offset-8">
                     About Me
                 </a>
-                {/* </li> */}
-                {/* <li> */}
+                <a href="/blog" className="hover:underline hover:underline-offset-8">
+                    Blog
+                </a>
                 <a href="/projects" className="hover:underline hover:underline-offset-8">
                     Projects
                 </a>
-                {/* </li> */}
-                {/* <li> */}
                 <a href="/contact" className="hover:underline hover:underline-offset-8">
                     Contact
                 </a>
-                {/* </li> */}
             </div>
             <div className="flex lg:hidden justify-between text-2xl p-5 space-x-20 shadow-xl">
                 <p>AD Portfolio</p>
@@ -79,17 +74,6 @@ export default function Nav() {
                         </div>
                     )}
                 </div>
-                {/* <label>
-                    ≡
-                    <select onChange={handleNavigation} className="border rounded-lg p-2">
-                        <option value="">Select a route</option>
-                        {routes.map((route) => (
-                            <option key={route.value} value={route.value}>
-                                {route.label}
-                            </option>
-                        ))}
-                    </select>
-                </label> */}
             </div>
         </div>
     );

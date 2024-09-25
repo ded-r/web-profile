@@ -3,6 +3,7 @@ import AboutMe from "../../components/AboutMe";
 import Projects from "../../components/Projects";
 import Contact from "../../components/Contact";
 import NotFound from "../../components/NotFound";
+import Blog from "../../components/Blog";
 
 export const ROUTES = [
     {
@@ -12,6 +13,10 @@ export const ROUTES = [
     {
         path: "/about",
         element: <AboutMe />,
+    },
+    {
+        path: "/blog",
+        element: <Blog />,
     },
     {
         path: "/projects",
