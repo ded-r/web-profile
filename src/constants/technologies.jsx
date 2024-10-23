@@ -1,4 +1,4 @@
-const technologies = [
+const Technologies = [
     { name: "HTML5", logo: "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" },
     { name: "TailwindCSS", logo: "https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss" },
     { name: "JavaScript", logo: "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" },
@@ -13,4 +13,4 @@ const technologies = [
     { name: "Kubernetes", logo: "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" },
 ];
 
-export default technologies;
+export default Technologies;

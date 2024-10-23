@@ -7,7 +7,7 @@ export default function Projects() {
                     <div className="grid grid-flow-row">
                         <div className="my-5 grid grid-cols-2 lg:grid-cols-3">
                             <div className="text-center hover:text-blue-500 duration-300 hover:scale-105">
-                                <a href="https://didar-weather.netlify.app/" target="_blank">
+                                <a href="https://weather-v2-didar.netlify.app/" target="_blank">
                                     <p>Simple Weather App</p>
                                     <img src="/Screenshot 2024-09-20 at 13.17.41.png" alt="" width={350} height={200} />
                                 </a>
