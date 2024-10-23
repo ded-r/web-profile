@@ -1,5 +1,4 @@
 import Languages from "../constants/Languages";
-import Technologies from "../constants/Technologies";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
