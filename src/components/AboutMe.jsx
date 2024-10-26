@@ -1,4 +1,4 @@
-import Languages from "../constants/Languages";
+import Technologies from "../constants/Technologies";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -64,21 +64,8 @@ export default function AboutMe() {
                     <b>My Stack</b>
                 </p>
                 <div className="grid grid-cols-3 lg:grid-cols-5 gap-5">
-                    {TextDecoderStreamechnologies.map((tech, index) => (
+                    {Technologies.map((tech, index) => (
                         <div key={index} className="m-auto text-center">
-                            <img src={tech.logo} alt={tech.name} height={200} width={200} />
-                            <b>{tech.name}</b>
-                        </div>
-                    ))}
-                </div>
-            </div>
-            <div>
-                <p className="my-8 lg:my-16 text-center text-3xl lg:text-6xl">
-                    <b>Languages</b>
-                </p>
-                <div className="flex space-x-20 justify-center items-center align-middle">
-                    {Languages.map((tech, index) => (
-                        <div key={index} className="text-center">
                             <img src={tech.logo} alt={tech.name} height={200} width={200} />
                             <b>{tech.name}</b>
                         </div>
