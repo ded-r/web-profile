@@ -75,7 +75,7 @@ export default function AboutMe() {
             <div className="text-center text-2xl lg:text-4xl my-8 lg:my-20 underline underline-offset-8 transition ease-in-out duration-300 hover:text-blue-500 hover:scale-110">
                 <p>
                     <b>
-                        <a href="https://drive.google.com/file/d/1WCwjMM6q5N2-zoanHiiAM0A1kdoG9YeP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1_Z-MNJURBLmLxJA5xnI7ggdfRumpwZyP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             View CV
                         </a>
                     </b>
